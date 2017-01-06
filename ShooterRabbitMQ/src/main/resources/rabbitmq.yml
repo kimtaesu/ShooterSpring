@@ -1,0 +1,12 @@
+rabbitmq:
+  binders:
+    -
+      id: 1
+      queue: com.hucet.loader
+      exchange: com.hucet.exchange
+      rountingKey: com.hucet.rountingKey
+    -
+      id: 2
+      queue: anomouys
+      exchange: com.hucet.exchange
+      rountingKey: com.hucet.rountingKey
